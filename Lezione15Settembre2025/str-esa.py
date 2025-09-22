@@ -45,3 +45,10 @@ d = "19ac645276d51baf8029f6e49c2cba" +\
     "b88a8b054a93cb9fe11a68012dc5af" +\
     "e3a144c8e19b283804dee14a84c4dc" +\
     "cb"
+
+decimale2 = int(d, 16)
+D = pow(C, e , decimale2)
+
+
+testo_decifrato = bytes.fromhex()
+print(f"Testo decifrato: {testo_decifrato}") 
