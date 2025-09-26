@@ -47,8 +47,9 @@ d = "19ac645276d51baf8029f6e49c2cba" +\
     "cb"
 
 decimale2 = int(d, 16)
-D = pow(C, e , decimale2)
+D = pow(C, decimale2, decimale)
 
+decimale = format(D, "x")
 
-testo_decifrato = bytes.fromhex()
+testo_decifrato = bytes.fromhex(decimale).decode()
 print(f"Testo decifrato: {testo_decifrato}") 
